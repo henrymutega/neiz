@@ -4,16 +4,36 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>NEIZ - Developer | Designer </title>
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <section class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-7 top-cover text-center">
+          <p class="site">www.neiz.co.ke</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 top-cover text-right">
+          <p class="num">Call: +254 703 361 658</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2 top-cover text-right">
+          <ul class="social_icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!--- Navigation Bar------------>
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#"><img src="images/banner.jpg" alt="BDS LOGO" width="50px" height="40px" ></a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-      <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+      <span class="toggler-icon"><i class="fa fa-bars"></i></span>
     </button>
     <div class="navbar-collapse main-nav collapse" id="main-nav">
       <ul class="navbar-nav mx-auto  text-uppercase">
@@ -41,9 +61,9 @@
                 <h3 class="text-uppercase">DEVELOPER | Designer</h3>
                 <h3>< ></h3><br>
                 <p class="text-uppercase">Get in touch</p>
-                <button type="button" class="banner-button-a btn-secondary-outline" name="button">Twitter</button>
-                <button type="button" class="banner-button-a btn-secondary-outline" name="button">Facebook</button>
-                <button type="button" class="banner-button-a btn-secondary-outline" name="button">Email</button>
+                <a class="banner-button-a btn-secondary-outline text-uppercase" href="#">Twitter</a>
+                <a class="banner-button-a btn-secondary-outline text-uppercase" href="#">Facebook</a>
+                <a class="banner-button-a btn-secondary-outline text-uppercase" href="#">Email</a>
               </div>
           </div>
       </div>
@@ -64,7 +84,7 @@
     </div>
     <div class="row">
       <div class="col-md-12 col-lg-12 col-sm-12">
-        <button type="button" class="banner-button-a btn-secondary-outline text-capitalize" name="button">Have a project ?</button>
+        <a class="banner-button-a btn-secondary-outline text-uppercase" href="#">Have a project ?</a>
       </div>
     </div>
 <hr>
@@ -75,13 +95,13 @@
     <div class="container">
       <header class="work-header">
         <h2>Some of my Work</h2>
-        <p>My work consists of a range designs, projects completed and developed</p>
+        <p class="work-p">My work consists of a range designs, projects completed and developed</p>
       </header>
         <p class="work-p">TAKE A LOOK OF EACH PROJECT TO FIND MORE</p>
     <div class="img-wrapper">
       <div class="row">
         <div class=" col-sm-6 col-md-10 col-lg-6 img-shape">
-          <div class="work-imgs">
+          <div class="work-imgs" id="work-img">
             <img src="images/maths.jpg" class="img-fluid" alt="">
           </div>
         </div>
@@ -95,7 +115,8 @@
       <div class="row">
         <div class=" col-sm-6 col-md-10 col-lg-4 img-shape">
           <div class="work-imgs">
-            <img src="images/laptop.jpg" class="img-fluid" alt="">
+            <img src="images/laptop_screen.jpg" class="img-fluid" alt="">
+            <img src="images/laptop_keyboard.jpg" class="img-fluid" alt="">
           </div>
         </div>
         <div class="col-sm-6 col-md-10 col-lg-8 img-shape">
@@ -114,8 +135,8 @@
       <div class="row">
         <div class="col-sm-10 col-md-10 col-lg-10 text-center">
           <p class="text-capitalize mt-10">Likes what you have seen ?</p>
-          <p class="hire-p">I am available for consulting and contract task.</p>
-            <button type="button" class="banner-button-a btn-secondary-outline text-capitalize" name="button">Hire me</button> <hr>
+          <p class="hire-p">I am available for consulting and contract job.</p>
+            <a class="banner-button-a btn-secondary-outline text-uppercase" href="#">Hire me</a>
         </div>
       </div>
     </div>
@@ -124,22 +145,68 @@
   <section class="wrapper-product">
     <div class="container">
       <div class="row">
-        <div class="col-sm-10 col-md-10 col-lg-6 text-center">
+        <div class="col-sm-10 col-md-10 col-lg-12 text-center knowledge">
+                    <hr>
+          <h3 class="text-uppercase">Noesis / cognition & acquisition</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-md-10 col-lg-6 text-center designs-dev">
+              <hr>
           <h3>Design</h3>
+              <hr>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis porro at dolorum! Ad!
+            <h4 class="text-uppercase">User interface design</h4>
+            I design user interfaces for web-based products and services. <br><br> Simplicity, well-heeled and quality work is my consideration on every project to make it meet it's standards and efficiency.<br>
             <a class="read-links" href="work.html">Read more...</a>
           </p>
         </div>
-        <div class="col-sm-10 col-md-10 col-lg-6 text-center">
+        <div class="col-sm-10 col-md-10 col-lg-6 text-center designs-dev">
+                <hr>
           <h3>Development</h3>
+                <hr>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis porro at dolorum! Ad!
+            <h4 class="text-uppercase">Font-End & Back-end Development</h4>
+            I use python & MySQL and specialize on Django for web applications. <br><br>
+            I develop user interfaces solutions with HTML, CSS(Bootstrap), Javascript, JQuery and AngularJS.<br>
             <a class="read-links" href="work.html">Read more...</a>
           </p>
         </div>
       </div>
-    </div>
+          <br>
+      <div class="row mt-5">
+        <div class="col-sm-10 col-md-10 col-lg-10 text-center writtings">
+          <h3 class="text-uppercase">Penning & Web log</h3>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 text-center writtings-text">
+              <hr>
+            <h5 class="text-uppercase">Penning and web log</h5>
+          </div>
+          <div class="col-sm-8 col-md-8 col-lg-8 mt-3 writtings-text">
+            <p>
+              I am active in writting life experience blogs, business articles and personal mentorship contents.<br>
+              My content is based on all social and technological life of humanity.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-lg-10 text-center mt-5">
+            <a class="banner-button-a btn-secondary-outline text-uppercase" href="#">my blogs</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-lg-10 text-center mt-5">
+            <h3 class="text-uppercase">Github</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-lg-10 text-center">
+            <p>Here is my Github account</p>
+          </div>
+        </div>
+      </div>
   </section>
 
   <footer class="wrapper-footer">
@@ -150,27 +217,31 @@
         </div>
       </div>
       <div class="row footer-set">
-        <div class="col-sm-10 col-md-10 col-lg-10 text-center">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
           <ul class="footer-links">
                         <hr>
             <li class="footer-link">
-              <span class="footer-text-h">facebook</span>
-                <a class="footer-link-nav" href="index.html"> henry mutega</a>
+              <i class="fa fa-comment"></i>
+              <a class="footer-link-nav"> +254 703 361 658</a>
             </li>
             <li class="footer-link">
-              <span class="footer-text-h">twitter</span>
-                <a class="footer-link-nav" href="index.html"> @_hmutega</a>
+              <i class="fa fa-facebook"></i>
+              <a class="footer-link-nav" href="index.html"> henry mutega</a>
             </li>
             <li class="footer-link">
-              <span class="footer-text-h">email</span>
-                  <a class="footer-link-nav" href="index.html"> hmutega@gmail.com</a>
+              <i class="fa fa-twitter"></i>
+              <a class="footer-link-nav" href="index.html"> @h_mutega</a>
+            </li>
+            <li class="footer-link">
+              <i class="fa fa-envelope-o"></i>
+              <a class="footer-link-nav" href="index.html"> hmutega@gmail.com</a>
             </li>
                           <hr>
           </ul>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-10 col-md-10 col-lg-10 text-center">
+        <div class="col-sm-10 col-md-10 col-lg-12 text-center mt-3">
             <p>© 2019 All Rights Reserved. Henry Mutega</p>
         </div>
       </div>
