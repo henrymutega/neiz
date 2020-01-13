@@ -1,0 +1,353 @@
+.top
+{
+  margin-bottom: -20px;
+}
+.top-cover
+{
+  margin: 0px 0px;
+  display: inline-block;
+}
+.num
+{
+  border-left: 1px solid;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.site
+{
+  border-left: 1px solid;
+  border-right: 1px solid;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.top-cover ul li, .top-cover p
+{
+  display: inline-block;
+}
+.social_icons
+{
+  padding-left: 7px;
+  padding-right: 7px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.social_icons li i
+{
+  font-size: 20px;
+  padding: 5px 5px;
+}
+.navbar
+{
+  background-color: #4169E1;
+  text-align: left!important;
+}
+.nav-link
+{
+  color: white;
+  font-weight: bold;
+}
+.nav-link:hover
+{
+  text-decoration: none;
+  color: #ADD8E6;
+}
+.toggler-icon i
+{
+  color: white;
+}
+.banner
+{
+  background-image: url(../images/banner3.jpg);
+  padding-top: 180px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center!important;
+}
+.work-banner
+{
+  background-image: url(../images/banner3.jpg);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center!important;
+}
+.banner-button-a
+{
+  display: inline-block;
+  background-color: #4169E1;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-weight: bold;
+  padding: 6px 20px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+.banner-button-a:hover
+{
+  background-color: #00008B;
+  color: #fff;
+  font-weight: 1100;
+  text-decoration: none;
+}
+.banner-button h3
+{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.banner-button p
+{
+  color: #fff;
+  font-size: 2rem;
+}
+.neiz
+{
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+.about
+{
+  background-color: ;
+  padding: 50px 100px;
+  text-align: center!important;
+}
+.about-text h2
+{
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.about-text p
+{
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+  padding: 0px 0px;
+}
+.work
+{
+  background-color: #edeae6;
+  padding-top: 50px;
+  text-align: center;
+}
+.work-header h2
+{
+  font-weight: bold;
+}
+.work-p
+{
+  font-weight: bold;
+  font-style: italic;
+}
+.work-imgs
+{
+  padding: 2px;
+  background-color: #FFFFFF;
+}
+.img-shape
+{
+  padding: 10px;
+}
+.work-info
+{
+  background-color: grey;
+  border: 1px solid;
+  display: none;
+}
+/*******/
+.wrapper-hire
+{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.mt-10
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.hire-p
+{
+  font-size: 1.2rem;
+  color: grey;
+}
+.wrapper-product
+{
+  margin-bottom: 40px;
+}
+.read-links
+{
+  color: black;
+  font-weight: bold;
+}
+.read-links:hover
+{
+  color: blue;
+  text-decoration: none;
+}
+.knowledge h3
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.designs-dev h4
+{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.designs-dev h3
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.writtings h3
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.writtings-text h5
+{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.writtings-text p
+{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.git-text h3
+{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.git-para
+{
+  font-size: 1.5rem;
+}
+.git-icon i
+{
+  font-size: 2rem;
+}
+.wrapper-footer
+{
+  background-color: #2e3133;
+  color: white;
+  padding: 20px;
+}
+.footer-set
+{
+  color: white;
+}
+.footer-link
+{
+  display: inline-block;
+  padding-right: 10px;
+}
+.footer-link-nav
+{
+  color: white;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+.footer-link-nav:hover
+{
+  color: #4169E1;
+  text-decoration: none;
+}
+
+/******END OF MAIN PAGE STYLES*************/
+
+/******ABOUT AND CONTACT STYLES***********/
+.about-banner
+{
+  background-image: url(../images/banner3.jpg);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+.about-banner h3
+{
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.about-m
+{
+  color: #4169E1;
+  font-size: 4rem;
+}
+.about-text
+{
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+.address-text h3
+{
+  font-weight: bold;
+}
+.con input, .con textarea
+{
+  width: 100%;
+  margin-bottom: 10px;
+  color: #999;
+  background: none;
+  padding: 10px 10px;
+  outline: none;
+  border: 1px solid;
+  border: double;
+  font-size: 14px;
+}
+.con textarea
+{
+  resize: none;
+  height: 11.5em;
+  border: double;
+}
+.contacts-wrapper
+{
+  background-color: #2e3133;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+.contacts-heading
+{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.footer-link i
+{
+  padding: 7px 7px;
+  font-size: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: blue;
+}
+/******END OF ABOUT AND CONTACT STYLES***/
+
+/**constraction styles******/
+.u-constraction
+{
+  text-align: center;
+  padding: 20px 20px;
+}
+.u-con
+{
+  height: 500px;
+  width: 500px;
+}
