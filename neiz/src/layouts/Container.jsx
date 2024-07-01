@@ -1,11 +1,10 @@
-
 import { Route, Routes } from "react-router-dom";
 import { routes } from "../utilities/Routes.jsx";
 import ScrollTop from "../utilities/ScrollTop";
 
 const Container = () => {
   return (
-    <div className="Container">
+    <div className="container">
      
       <ScrollTop />
       <Routes>
