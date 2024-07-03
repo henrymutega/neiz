@@ -1,4 +1,4 @@
-# Portfolio website - Hosting in Aws s3
+# Portfolio website - Hosting in Amazon s3
 
 # What is Amazon S3?
 #### Amazon S3 (Simple Storage Service) is an object storage service provided by Amazon Web Services (AWS). It is designed to store and retrieve any amount of data from anywhere on the web.
@@ -18,5 +18,46 @@
 
 7. Performance: S3 provides high throughput and low-latency access to stored data, which is beneficial for performance-critical applications.
 
+# Deploying a static website
+There are several ways to host your website:
+ - Using the S3 console
+ - Using the AWS software development kit
+- Using the AWS command line interface
 
+-> We will use the S3 console to deploy and host a website in this project. Here's a step-by-step guide:
 
+# Step 1: Set Up an S3 Bucket
+
+1. Log in to AWS Management Console: Go to the AWS Management Console.
+
+2. Navigate to S3: From the Services menu, select S3.
+
+3. Create a Bucket:
+
+- Click on "Create bucket."
+- Enter a unique bucket name (e.g., resumebucket254).
+- Choose a region.
+- Click "Create bucket" after reviewing the settings.
+
+# Step 2: Upload Your Website Files
+
+1. Open Your Bucket: Click on the bucket name you just created.
+
+2. Upload Files: using the AWS CLI to upload your file from your terminal. (E.g aws s3 sync <folder name> s3://<name of the bucket>)
+
+# Step 3: Configure the Bucket for Static Website Hosting
+
+1. Enable Static Website Hosting:
+
+    i. In the bucket properties, select the "Properties" tab.
+
+    ii. Scroll down to the "Static website hosting" section.
+
+    iii. Choose "Use this bucket to host a website."
+
+    iv. Enter the name of your index document (e.g., index.html).
+
+    v. Optionally, enter the name of an error document (e.g., error.html).
+
+    vi. Click "Save."
+    
