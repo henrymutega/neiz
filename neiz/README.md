@@ -36,7 +36,7 @@ There are several ways to host your website:
 
 3. Create a Bucket:
 
-![Alt text](images/Screenshot(87).png)
+![Alt text](src/images/Sn1.png)
 
 - Click on "Create bucket."
 - Enter a unique bucket name (e.g., resumebucket254).
