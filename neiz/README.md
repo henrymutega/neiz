@@ -36,16 +36,25 @@ There are several ways to host your website:
 
 3. Create a Bucket:
 
+![Alt text](images/Screenshot(87).png)
+
 - Click on "Create bucket."
 - Enter a unique bucket name (e.g., resumebucket254).
+
+![Alt text](images/Screenshot(88).png)
+
 - Choose a region.
 - Click "Create bucket" after reviewing the settings.
 
+![Alt text](images/Screenshot(92).png)
+
 # Step 2: Upload Your Website Files
 
-1. Open Your Bucket: Click on the bucket name you just created.
+    1. Open Your Bucket: Click on the bucket name you just created.
 
-2. Upload Files: using the AWS CLI to upload your file from your terminal. (E.g aws s3 sync <folder name> s3://<name of the bucket>)
+![Alt text](images/Screenshot(93).png)
+
+    2. Upload Files: using the AWS CLI to upload your file from your terminal. (E.g aws s3 sync <folder name> s3://<name of the bucket>)
 
 # Step 3: Configure the Bucket for Static Website Hosting
 
@@ -53,7 +62,11 @@ There are several ways to host your website:
 
     i. In the bucket properties, select the "Properties" tab.
 
+![Alt text](images/Screenshot(96).png)
+
     ii. Scroll down to the "Static website hosting" section.
+
+![Alt text](images/Screenshot(97).png)
 
     iii. Choose "Use this bucket to host a website."
 
@@ -70,6 +83,8 @@ There are several ways to host your website:
     i. Go to the "Permissions" tab in your bucket.
 
     ii. Click on "Bucket Policy."
+
+![Alt text](images/Screenshot(98).png)
 
     iii. Add a bucket policy to allow public read access
 
@@ -98,3 +113,18 @@ There are several ways to host your website:
     > In the "Static website hosting" section, note the "Endpoint" URL.
 
     >This is the URL where your static website can be accessed (e.g., http://<your bucket name>.s3-website-us-east-1.amazonaws.com).
+
+
+# Additional Steps
+
+# Custom Domain with Route 53
+
+ -> If you want to use a custom domain, you can configure Amazon Route 53 and associate it with your S3 bucket.
+
+![Alt text](images/Screenshot(95).png)
+
+# HTTPS with CloudFront
+
+    -> To enable HTTPS, you can use Amazon CloudFront, which can distribute your content globally and provide SSL TLS certificates.
+
+--- Following these steps with the provided screenshots, you can successfully deploy a static website on Amazon S3.
