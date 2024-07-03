@@ -115,15 +115,17 @@ There are several ways to host your website:
     >This is the URL where your static website can be accessed (e.g., http://<your bucket name>.s3-website-us-east-1.amazonaws.com).
 
 
+
+
 # Additional Steps
 
-# Custom Domain with Route 53
+## Custom Domain with Route 53
 
  -> If you want to use a custom domain, you can configure Amazon Route 53 and associate it with your S3 bucket.
 
 ![Alt text](src/images/sn8.png)
 
-# HTTPS with CloudFront
+## HTTPS with CloudFront
 
     -> To enable HTTPS, you can use Amazon CloudFront, which can distribute your content globally and provide SSL TLS certificates.
 
