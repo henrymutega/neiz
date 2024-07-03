@@ -60,4 +60,39 @@ There are several ways to host your website:
     v. Optionally, enter the name of an error document (e.g., error.html).
 
     vi. Click "Save."
-    
+
+# Step 4: Set Permissions
+
+-> Make the Bucket Public:
+
+    i. Go to the "Permissions" tab in your bucket.
+
+    ii. Click on "Bucket Policy."
+
+    iii. Add a bucket policy to allow public read access
+
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+            {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::<your bucket name>/*"
+            }
+        ]
+    }
+
+    iv. Replace <your bucket name> with your actual bucket name.
+
+    v. Click "Save."
+
+# Step 5:  Access Your Website
+
+-> Get the Endpoint URL:
+
+    > Go to the "Properties" tab.
+
+    > In the "Static website hosting" section, note the "Endpoint" URL.
+
+    >This is the URL where your static website can be accessed (e.g., http://<your bucket name>.s3-website-us-east-1.amazonaws.com).
