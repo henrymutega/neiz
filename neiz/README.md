@@ -41,18 +41,18 @@ There are several ways to host your website:
 - Click on "Create bucket."
 - Enter a unique bucket name (e.g., resumebucket254).
 
-![Alt text](images/Screenshot(88).png)
+![Alt text](src/images/sn2.png)
 
 - Choose a region.
 - Click "Create bucket" after reviewing the settings.
 
-![Alt text](images/Screenshot(92).png)
+![Alt text](src/images/sn3.png)
 
 # Step 2: Upload Your Website Files
 
     1. Open Your Bucket: Click on the bucket name you just created.
 
-![Alt text](images/Screenshot(93).png)
+![Alt text](src/images/sn4.png)
 
     2. Upload Files: using the AWS CLI to upload your file from your terminal. (E.g aws s3 sync <folder name> s3://<name of the bucket>)
 
@@ -62,11 +62,11 @@ There are several ways to host your website:
 
     i. In the bucket properties, select the "Properties" tab.
 
-![Alt text](images/Screenshot(96).png)
+![Alt text](src/images/sn5.png)
 
     ii. Scroll down to the "Static website hosting" section.
 
-![Alt text](images/Screenshot(97).png)
+![Alt text](src/images/sn6.png)
 
     iii. Choose "Use this bucket to host a website."
 
@@ -84,7 +84,7 @@ There are several ways to host your website:
 
     ii. Click on "Bucket Policy."
 
-![Alt text](images/Screenshot(98).png)
+![Alt text](src/images/sn7.png)
 
     iii. Add a bucket policy to allow public read access
 
@@ -121,7 +121,7 @@ There are several ways to host your website:
 
  -> If you want to use a custom domain, you can configure Amazon Route 53 and associate it with your S3 bucket.
 
-![Alt text](images/Screenshot(95).png)
+![Alt text](src/images/sn8.png)
 
 # HTTPS with CloudFront
 
