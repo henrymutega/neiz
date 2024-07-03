@@ -12,21 +12,21 @@ const Home = () => {
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a className="nav-link active" href="#header">Home</a></li>
-              <li><a className="nav-link" href="#about">About</a></li>
-              <li><a className="nav-link" href="#resume">Resume</a></li>
-              <li><a className="nav-link" href="#services">Services</a></li>
-              <li><a className="nav-link" href="#portfolio">Portfolio</a></li>
-              <li><a className="nav-link" href="#contact">Contact</a></li>
+              <li><a className="nav-link active" href="#">Home</a></li>
+              <li><a className="nav-link" href="#">About</a></li>
+              <li><a className="nav-link" href="#">Resume</a></li>
+              <li><a className="nav-link" href="#">Services</a></li>
+              <li><a className="nav-link" href="#">Portfolio</a></li>
+              <li><a className="nav-link" href="#">Contact</a></li>
             </ul>
-            <i className="bi bi-list mobile-nav-toggle"></i>
+            
           </nav>
     
           <div className="social-links">
-            <a href="https://twitter.com/h_mutega" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="https://web.facebook.com/parkhenry.mutega/" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/henry-mutega-34a210177/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/h_mutega" className="twitter"></a>
+            <a href="https://web.facebook.com/parkhenry.mutega/" className="facebook"></a>
+            <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/henry-mutega-34a210177/" className="linkedin"></a>
           </div>
     
         </div>
